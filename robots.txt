@@ -1,0 +1,32 @@
+# dancenitra.github.io — the account root.
+#
+# This file exists because crawlers read robots.txt ONLY from the domain root. Every project below
+# lives on a path (/agora/, /inspeximus/, ...) and each ships its own robots.txt, none of which is
+# ever fetched. Their Sitemap: declarations were therefore invisible, so the sitemaps were
+# discoverable only by manual submission. These are the ones that matter.
+
+User-agent: *
+Allow: /
+
+# AI-search crawlers are welcome: this content is research meant to be cited.
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+User-agent: bingbot
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://dancenitra.github.io/agora/sitemap.xml
+Sitemap: https://dancenitra.github.io/inspeximus/sitemap.xml
