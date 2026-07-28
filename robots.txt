@@ -28,5 +28,6 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
+Sitemap: https://dancenitra.github.io/agora/sitemap_index.xml
 Sitemap: https://dancenitra.github.io/agora/sitemap.xml
 Sitemap: https://dancenitra.github.io/inspeximus/sitemap.xml
