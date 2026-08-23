@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The account root sitemap index.
+
+     Crawlers look for a sitemap at the host root, and until 2026-08-23 this URL returned 404 while
+     every project sitemap sat one directory down. Google Search Console had both agora sitemaps in
+     the state "could not fetch" since 2026-07-11, with zero pages discovered and no recorded read,
+     against files that answer 200 to Googlebot on twenty consecutive requests. This index removes
+     the host-root 404 as a possible cause and gives every crawler one place to start.
+
+     A sitemap index may reference sitemaps anywhere on the same host; each referenced sitemap still
+     only lists URLs at or below its own directory. -->
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://dancenitra.github.io/agora/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://dancenitra.github.io/inspeximus/sitemap.xml</loc>
+  </sitemap>
+</sitemapindex>
