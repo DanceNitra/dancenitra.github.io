@@ -28,6 +28,9 @@ Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
+# The host-root index first: it references every project sitemap, so a crawler that reads only
+# one line still reaches all of them.
+Sitemap: https://dancenitra.github.io/sitemap.xml
 Sitemap: https://dancenitra.github.io/agora/sitemap_index.xml
 Sitemap: https://dancenitra.github.io/agora/sitemap.xml
 Sitemap: https://dancenitra.github.io/inspeximus/sitemap.xml
